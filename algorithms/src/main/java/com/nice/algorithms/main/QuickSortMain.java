@@ -15,7 +15,7 @@ public class QuickSortMain
     	int length;
 //      int[] input = {1,4,2,3,9,7,8};  //一般用例
 //    	int[] input = {6,4,2,5,3,7,8,0,1,9}; //特殊情况用例一：除middle外所有数都比middle小
-        int[] input = {1,4,2,3,9,7,0};  //一般用例二：除middle外所有数都比middle小
+        int[] input = {1,4,2,3,9,7,0};  //一般用例二：除middle外所有数都比middle大
         length = input.length;
         int right = length - 2;
         quickSort.Sort(input, 0, right);
