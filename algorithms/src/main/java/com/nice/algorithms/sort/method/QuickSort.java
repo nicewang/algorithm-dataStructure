@@ -1,4 +1,4 @@
-package com.nice.algorithms.method;
+package com.nice.algorithms.sort.method;
 
 /**
  * 快排实现从左到右从小到大排序，每一次排序所选取的middle为最右边元素（数组最后一个元素）

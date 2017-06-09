@@ -4,6 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.nice.algorithms.sort.method.QuickSort;
+
 import junit.framework.TestCase;
 
 

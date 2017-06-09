@@ -1,6 +1,6 @@
-package com.nice.algorithms.main;
+package com.nice.algorithms.sort.main;
 
-import com.nice.algorithms.method.QuickSort;
+import com.nice.algorithms.sort.method.QuickSort;
 
 /**
  * 快排实现从左到右从小到大排序，每一次排序所选取的middle为最右边元素（数组最后一个元素）
