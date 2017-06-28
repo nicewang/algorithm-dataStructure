@@ -15,7 +15,7 @@ import java.util.Scanner;
  * 对于每组数据，输出一个整数，代表最少需要删除的字符个数。
  * 输入例子:
  * abcda
- * 书橱例子：
+ * 输出例子：
  * 2
  * @author NiceWang
  */
