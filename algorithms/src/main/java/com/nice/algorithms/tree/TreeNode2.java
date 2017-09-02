@@ -1,10 +1,12 @@
 package com.nice.algorithms.tree;
 
+import com.nice.algorithms.link.Link;
+
 public class TreeNode2 {
 
 	private int data;
 	private int parent;
-	private int children;
+	private Link children;
 	
 	public int getData() {
 		return data;
@@ -18,10 +20,10 @@ public class TreeNode2 {
 	public void setParent(int parent) {
 		this.parent = parent;
 	}
-	public int getChildren() {
+	public Link getChildren() {
 		return children;
 	}
-	public void setChildren(int children) {
+	public void setChildren(Link children) {
 		this.children = children;
 	}
 	
