@@ -196,4 +196,21 @@ public class Link {
 		size = 0;
 	}
 	
+	/**
+	 * 反转链表
+	 */
+	public void reverse() {
+		Node temp = first;
+		last = temp;
+		Node next = first.getNext();
+		for(int i = 0; i < size - 1; i++) {
+			Node nextNext = next.getNext();
+			next.setNext(temp);
+			temp = next;
+			next = nextNext;
+		}
+		last.setNext(null);
+		first = temp;
+	}
+	
 }
