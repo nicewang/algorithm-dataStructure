@@ -1,5 +1,10 @@
 package com.nice.algorithms.tree.BinaryTree;
 
+/**
+ * 二叉树节点的数组实现
+ * 
+ * @author wangxiaonan
+ */
 public class BinaryTreeNode2 {
 
 	private int leftChild;

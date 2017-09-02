@@ -1,5 +1,10 @@
 package com.nice.algorithms.tree.BinaryTree;
 
+/**
+ * 二叉树节点的左右链实现
+ * 
+ * @author wangxiaonan
+ */
 public class BinaryTreeNode {
 
 	private int data;
