@@ -1,5 +1,7 @@
 package com.nice.algorithms.sort.method;
 
+import java.util.List;
+
 /**
  * 插入排序算法
  * @author NiceWang
@@ -41,6 +43,23 @@ public class InsertSort {
 		}
 		long time1 = System.nanoTime();
 		System.out.println("The lasting time of swaping of insertSort2: " + (time1 - time0));
+	}
+	
+	/**
+	 * 插入排序官方版本——要排序的对象放在ArrayList里
+	 * @param input
+	 */
+	public static void insertSort(List<Integer> input) {
+		for(int i = 1; i < input.size(); i++) {
+			int temp = input.get(i);
+			int j;
+			for(j = i; j > 0 && input.get(j-1) > temp; j--) {
+				input.add(j, input.get(j-1));
+				input.remove(j+1);
+			}
+			input.add(j, temp);
+			input.remove(j+1);
+		}
 	}
 	
 }

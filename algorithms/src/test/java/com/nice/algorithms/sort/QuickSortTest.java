@@ -1,4 +1,4 @@
-package com.nice.algorithms.method;
+package com.nice.algorithms.sort;
 
 import org.junit.After;
 import org.junit.Before;
